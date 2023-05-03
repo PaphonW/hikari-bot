@@ -17,7 +17,7 @@ client.on('interactionCreate', async interaction => {
         return;
     }
     const { commandName } = interaction;
-    commands[commandName].excute(interaction, client)
+    commands[commandName].execute(interaction, client)
 });
 
 
